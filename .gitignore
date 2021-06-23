@@ -28,3 +28,9 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+#sentry specific
+sentry.client.config.js
+sentry.server.config.js
+sentry.properties
+next.config.js

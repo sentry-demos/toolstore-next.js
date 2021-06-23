@@ -16,8 +16,10 @@ Repo is intended to be a starting place/quick solution for a performance demo us
 
 # Start Server
 
-1. ``` Development: npm run dev --no sourcemap upload ```
-2. ``` Production: npm run build -- sourcemap uploads via webpack plugin.```
+1. Development: `npm run dev` - no sourcemap upload
+2. Production:
+`npm run build` - sourcemap uploads via webpack plugin then: `npm run start`
+
 
 
 # Performance Dashboard
@@ -33,3 +35,4 @@ Relevant transaction categories include `/` and `checkout` for pageload and non-
 3. Add custom tags.
 4. Add beforeSend()
 5. Add other pages for navigation.
+6. Set user.
